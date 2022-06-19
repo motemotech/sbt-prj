@@ -3,6 +3,10 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
+import Navigation from "./Navbar";
+//import Home from "./Home.js";
+import Create from "./Create.js"
+import MySoul from "./MySoul.js"
 import sbtAbi from '../contractsData/ERC4973.json'
 import sbtAddress from '../contractsData/ERC4973-address.json'
 import { useState } from 'react'
